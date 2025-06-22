@@ -155,7 +155,8 @@ Firmenadresse(n):\"]}`);
     player.give(firma)
 
 }
-function sign_document(Commands, Arguments, context, tag, author) {
+
+function sign_document(Commands, Arguments, context, tag, author, city) {
     const player = context.source.player;
 
     if (!player.getTags().contains(tag)) {
@@ -178,9 +179,9 @@ function sign_document(Commands, Arguments, context, tag, author) {
     input = input.replace("/", `\/`);
     //player.runCommand(`give @s minecraft:written_book{title: "[${stamp}] ${name}", author: "Rathaus [IC]", display: {Lore:['{"text":"[${stamp}] | Infinity City","color":"dark_purple","italic":false}']}, pages: ${JSON.stringify(JSON.parse(input).map(item => `{"text":"${item}"}`))}}`);
     if (stamp === "") {
-        context.source.player.getServer().runCommandSilent(`give ${player.name.string} minecraft:written_book{title: "${name}", author: "${author}", display: {Lore:['{"text":"Infinity City","color":"dark_purple","italic":false}']}, pages: ${JSON.stringify(JSON.parse(input).map(item => `{"text":"${item}"}`))}}`);
+        context.source.player.getServer().runCommandSilent(`give ${player.name.string} minecraft:written_book{title: "${name}", author: "${author}", display: {Lore:['{"text":"${city}","color":"dark_purple","italic":false}']}, pages: ${JSON.stringify(JSON.parse(input).map(item => `{"text":"${item}"}`))}}`);
     } else {
-        context.source.player.getServer().runCommandSilent(`give ${player.name.string} minecraft:written_book{title: "[${stamp}] ${name}", author: "${author}", display: {Lore:['{"text":"[${stamp}] | Infinity City","color":"dark_purple","italic":false}']}, pages: ${JSON.stringify(JSON.parse(input).map(item => `{"text":"${item}"}`))}}`);
+        context.source.player.getServer().runCommandSilent(`give ${player.name.string} minecraft:written_book{title: "[${stamp}] ${name}", author: "${author}", display: {Lore:['{"text":"[${stamp}] | ${city}","color":"dark_purple","italic":false}']}, pages: ${JSON.stringify(JSON.parse(input).map(item => `{"text":"${item}"}`))}}`);
     }
     
     // player.getMainHandItem().setCount(0);
@@ -236,7 +237,7 @@ ServerEvents.commandRegistry(event => {
         .then(Commands.argument("stamp", Arguments.STRING.create(event))
             .then(Commands.argument("name", Arguments.STRING.create(event))
                 .executes(context => {
-                    sign_document(Commands, Arguments, context, "rpn.sign_documents", "Rathaus [IC]");
+                    sign_document(Commands, Arguments, context, "rpn.sign_documents", "Rathaus [IC]", "Infinity City");
                     return 1;
                 })
             )
@@ -247,7 +248,7 @@ ServerEvents.commandRegistry(event => {
             .then(Commands.argument("stamp", Arguments.STRING.create(event))
                 .then(Commands.argument("name", Arguments.STRING.create(event))
                     .executes(context => {
-                        sign_document(Commands, Arguments, context, "rpn.sign_documents_police", "Polizei [IC]");
+                        sign_document(Commands, Arguments, context, "rpn.sign_documents_police", "Polizei [IC]", "Infinity City");
                         return 1;
                     })
                 )
@@ -258,7 +259,18 @@ ServerEvents.commandRegistry(event => {
             .then(Commands.argument("stamp", Arguments.STRING.create(event))
                 .then(Commands.argument("name", Arguments.STRING.create(event))
                     .executes(context => {
-                        sign_document(Commands, Arguments, context, "rpn.sign_documents_bank", "Staatsbank [IC]");
+                        sign_document(Commands, Arguments, context, "rpn.sign_documents_bank", "Staatsbank [IC]", "Infinity City");
+                        return 1;
+                    })
+                )
+            )
+    );
+    event.register(
+        Commands.literal("sign_savanna")
+            .then(Commands.argument("stamp", Arguments.STRING.create(event))
+                .then(Commands.argument("name", Arguments.STRING.create(event))
+                    .executes(context => {
+                        sign_document(Commands, Arguments, context, "rpn.sign_savanna", "Rathaus [SC]", "Savanna City");
                         return 1;
                     })
                 )
