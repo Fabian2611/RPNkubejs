@@ -51,7 +51,7 @@ Sie sind verpflichtet ein mal im Monat eine Steuererklärung an das Büro des Fi
 }
 
 function give_steuer_firma(player) {
-    let steuer_firma = Item.of('minecraft:writable_book', "{RepairCost:0,display:{Name:'{\"text\":\"Steuererklärung\"}'},pages:[\"--Steuererklärung--\n\
+    let steuer_firma = Item.of('minecraft:writable_book', "{RepairCost:0,display:{Name:'{\"text\":\"Steueranhang Firmen\"}'},pages:[\"--Firmensteuer--\n\
 \n\
 Name: Mustermann\n\
 \n\
