@@ -1,0 +1,31 @@
+{
+  "type": "brewery:brewing",
+  "brewing_data": {
+    "allowedWoodTypes": [
+      "crimson"
+    ],
+    "brew_type": "cyanide",
+    "distillingItem": "gunpowder",
+    "inputs": [
+      {
+        "item": "minecraft:quartz",
+        "maxCount": 8,
+        "minCount": 8  
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "maxCount": 32,
+        "minCount": 32 
+      },
+      {
+        "item": "minecraft:beetroot_seeds",
+        "maxCount": 24,
+        "minCount": 24
+      }
+    ],
+    "optimalAgingTime": 336000,
+    "optimalBrewingTime": 36000,
+    "maxAgingTimeError": 0.1,
+    "maxBrewingTimeError": 0.1
+  }
+}

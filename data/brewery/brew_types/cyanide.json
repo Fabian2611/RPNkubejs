@@ -1,0 +1,16 @@
+{
+  "builtin": false, 
+  "customLore": "rpn.brew.cyanide.lore", 
+  "customName": "rpn.brew.cyanide.name", 
+  "effects": [
+    {
+      "amplifier": 4,
+      "duration": 20,
+      "effect": "effect.minecraft.instant_damage" 
+                                                   
+    }
+  ],
+  "maxAlcoholLevel": 2, 
+  "maxPurity": 1, 
+  "tintColor": 12450815
+}
