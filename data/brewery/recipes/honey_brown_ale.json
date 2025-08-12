@@ -1,0 +1,29 @@
+{
+    "type": "brewery:brewing",
+    "brewing_data": {
+        "allowedWoodTypes": [
+            "dark_oak",
+            "spruce",
+            "oak",
+            "mangrove"
+        ],
+        "brew_type": "honey_brown_ale",
+        "distillingItem": "",
+        "inputs": [
+            {
+                "item": "minecraft:wheat",
+                "maxCount": 12,
+                "minCount": 16
+            },
+            {
+                "item": "minecraft:honey_bottle",
+                "maxCount": 1,
+                "minCount": 1
+            }
+        ],
+        "maxAgingTimeError": 0.2,
+        "maxBrewingTimeError": 0.2,
+        "optimalAgingTime": 96000,
+        "optimalBrewingTime": 7200
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "customLore": "brewery.brew.lava_whiskey.lore",
+    "customName": "brewery.brew.lava_whiskey.name",
+    "effects": [
+        {
+            "amplifier": 0,
+            "duration": 2400,
+            "effect": "effect.minecraft.fire_resistance"
+        },
+        {
+            "amplifier": 3,
+            "duration": 2400,
+            "effect": "effect.brewery.alcohol"
+        }
+    ],
+    "maxAlcoholLevel": 1,
+    "maxPurity": 4,
+    "tintColor": 7341590
+}

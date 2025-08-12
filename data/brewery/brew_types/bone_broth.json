@@ -1,0 +1,19 @@
+{
+    "customLore": "brewery.brew.bone_broth.lore",
+    "customName": "brewery.brew.bone_broth.name",
+    "effects": [
+        {
+            "amplifier": 0,
+            "duration": 2400,
+            "effect": "effect.minecraft.saturation"
+        },
+        {
+            "amplifier": 0,
+            "duration": 600,
+            "effect": "effect.minecraft.strength"
+        }
+    ],
+    "maxAlcoholLevel": 1,
+    "maxPurity": 2,
+    "tintColor": 12564131
+}

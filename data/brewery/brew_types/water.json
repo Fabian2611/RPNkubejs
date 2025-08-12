@@ -1,0 +1,8 @@
+{
+    "customLore": "brewery.brew.water.lore",
+    "customName": "brewery.brew.water.name",
+    "effects": [],
+    "maxAlcoholLevel": 1,
+    "maxPurity": 1,
+    "tintColor": 3575746
+}

@@ -1,0 +1,14 @@
+{
+    "customLore": "brewery.brew.pumpkin_soup.lore",
+    "customName": "brewery.brew.pumpkin_soup.name",
+    "effects": [
+        {
+            "amplifier": 1,
+            "duration": 2400,
+            "effect": "effect.minecraft.saturation"
+        }
+    ],
+    "maxAlcoholLevel": 1,
+    "maxPurity": 3,
+    "tintColor": 13926918
+}

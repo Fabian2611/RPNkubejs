@@ -1,0 +1,32 @@
+{
+    "type": "brewery:brewing",
+    "brewing_data": {
+        "allowedWoodTypes": [
+            "crimson",
+            "warped"
+        ],
+        "brew_type": "lava_whiskey",
+        "distillingItem": "gunpowder",
+        "inputs": [
+            {
+                "item": "minecraft:magma_block",
+                "maxCount": 1,
+                "minCount": 1
+            },
+            {
+                "item": "minecraft:magma_cream",
+                "maxCount": 6,
+                "minCount": 4
+            },
+            {
+                "item": "minecraft:nether_wart",
+                "maxCount": 2,
+                "minCount": 2
+            }
+        ],
+        "maxAgingTimeError": 0.1,
+        "maxBrewingTimeError": 0.1,
+        "optimalAgingTime": 216000,
+        "optimalBrewingTime": 4800
+    }
+}

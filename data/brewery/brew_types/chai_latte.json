@@ -1,0 +1,19 @@
+{
+    "customLore": "brewery.brew.chai_latte.lore",
+    "customName": "brewery.brew.chai_latte.name",
+    "effects": [
+        {
+            "amplifier": 0,
+            "duration": 2400,
+            "effect": "effect.minecraft.saturation"
+        },
+        {
+            "amplifier": 0,
+            "duration": 300,
+            "effect": "effect.minecraft.regeneration"
+        }
+    ],
+    "maxAlcoholLevel": 1,
+    "maxPurity": 3,
+    "tintColor": 11125308
+}

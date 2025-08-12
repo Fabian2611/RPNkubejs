@@ -1,0 +1,29 @@
+{
+    "type": "brewery:brewing",
+    "brewing_data": {
+        "allowedWoodTypes": [],
+        "brew_type": "chai_latte",
+        "distillingItem": "glowstone_dust",
+        "inputs": [
+            {
+                "item": "minecraft:kelp",
+                "maxCount": 2,
+                "minCount": 2
+            },
+            {
+                "item": "minecraft:cocoa_beans",
+                "maxCount": 5,
+                "minCount": 3
+            },
+            {
+                "item": "minecraft:sweet_berries",
+                "maxCount": 3,
+                "minCount": 1
+            }
+        ],
+        "maxAgingTimeError": 0.1,
+        "maxBrewingTimeError": 0.1,
+        "optimalAgingTime": 0,
+        "optimalBrewingTime": 7200
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "brewery:brewing",
+    "brewing_data": {
+        "allowedWoodTypes": [
+            "acacia",
+            "birch",
+            "dark_oak",
+            "jungle",
+            "oak",
+            "spruce",
+            "crimson",
+            "warped",
+            "mangrove",
+            "bamboo",
+            "cherry"
+        ],
+        "brew_type": "bone_broth",
+        "distillingItem": "",
+        "inputs": [
+            {
+                "item": "minecraft:bone",
+                "maxCount": 6,
+                "minCount": 4
+            },
+            {
+                "item": "minecraft:rotten_flesh",
+                "maxCount": 5,
+                "minCount": 1
+            }
+        ],
+        "maxAgingTimeError": 0.2,
+        "maxBrewingTimeError": 0.3,
+        "optimalAgingTime": 24000,
+        "optimalBrewingTime": 4800
+    }
+}

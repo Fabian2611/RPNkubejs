@@ -1,0 +1,24 @@
+{
+    "customLore": "brewery.brew.coffee_liqueur.lore",
+    "customName": "brewery.brew.coffee_liqueur.name",
+    "effects": [
+        {
+            "amplifier": 0,
+            "duration": 1200,
+            "effect": "effect.brewery.alcohol"
+        },
+        {
+            "amplifier": 0,
+            "duration": 1200,
+            "effect": "effect.minecraft.speed"
+        },
+        {
+            "amplifier": 0,
+            "duration": 1200,
+            "effect": "effect.minecraft.jump_boost"
+        }
+    ],
+    "maxAlcoholLevel": 1,
+    "maxPurity": 3,
+    "tintColor": 7029791
+}

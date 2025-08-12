@@ -1,0 +1,31 @@
+{
+    "type": "brewery:brewing",
+    "brewing_data": {
+        "allowedWoodTypes": [
+            "acacia",
+            "birch",
+            "dark_oak",
+            "jungle",
+            "oak",
+            "spruce",
+            "crimson",
+            "warped",
+            "mangrove",
+            "bamboo",
+            "cherry"
+        ],
+        "brew_type": "water",
+        "distillingItem": "",
+        "inputs": [
+            {
+                "item": "minecraft:moss_block",
+                "maxCount": 1,
+                "minCount": 1
+            }
+        ],
+        "maxAgingTimeError": 1.0,
+        "maxBrewingTimeError": 1.0,
+        "optimalAgingTime": 24000,
+        "optimalBrewingTime": 1200
+    }
+}

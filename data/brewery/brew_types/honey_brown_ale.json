@@ -1,0 +1,19 @@
+{
+    "customLore": "brewery.brew.honey_brown_ale.lore",
+    "customName": "brewery.brew.honey_brown_ale.name",
+    "effects": [
+        {
+            "amplifier": 1,
+            "duration": 2400,
+            "effect": "effect.brewery.alcohol"
+        },
+        {
+            "amplifier": 0,
+            "duration": 1200,
+            "effect": "effect.minecraft.regeneration"
+        }
+    ],
+    "maxAlcoholLevel": 1,
+    "maxPurity": 4,
+    "tintColor": 10251520
+}
