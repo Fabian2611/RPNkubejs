@@ -1,6 +1,6 @@
 {
-    "customLore": "brewery.brew.coffee_liqueur.lore",
-    "customName": "brewery.brew.coffee_liqueur.name",
+    "customLore": "A rich and flavorful liqueur made with coffee, perfect for sipping or mixing.",
+    "customName": "Coffee Liqueur",
     "effects": [
         {
             "amplifier": 0,

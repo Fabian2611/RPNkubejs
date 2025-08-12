@@ -1,6 +1,6 @@
 {
-    "customLore": "brewery.brew.water.lore",
-    "customName": "brewery.brew.water.name",
+    "customLore": "It's water. What did you expect?",
+    "customName": "Water",
     "effects": [],
     "maxAlcoholLevel": 1,
     "maxPurity": 1,

@@ -1,6 +1,6 @@
 {
-    "customLore": "brewery.brew.chai_latte.lore",
-    "customName": "brewery.brew.chai_latte.name",
+    "customLore": "A warm and comforting beverage made with spiced tea and steamed milk.",
+    "customName": "Chai Latte",
     "effects": [
         {
             "amplifier": 0,

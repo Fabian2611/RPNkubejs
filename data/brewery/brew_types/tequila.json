@@ -1,6 +1,6 @@
 {
-    "customLore": "brewery.brew.tequila.lore",
-    "customName": "brewery.brew.tequila.name",
+    "customLore": "A traditional Mexican spirit made from the blue agave plant, known for its smooth and complex flavor.",
+    "customName": "Tequila",
     "effects": [
         {
             "amplifier": 1,

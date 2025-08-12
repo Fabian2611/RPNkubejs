@@ -1,6 +1,6 @@
 {
-    "customLore": "brewery.brew.whiskey.lore",
-    "customName": "brewery.brew.whiskey.name",
+    "customLore": "A classic spirit distilled from fermented grain mash, known for its rich and complex flavor.",
+    "customName": "Whiskey",
     "effects": [
         {
             "amplifier": 2,

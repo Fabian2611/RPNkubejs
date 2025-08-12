@@ -1,6 +1,6 @@
 {
-    "customLore": "brewery.brew.honey_brown_ale.lore",
-    "customName": "brewery.brew.honey_brown_ale.name",
+    "customLore": "A smooth and malty ale with a hint of honey sweetness.",
+    "customName": "Honey Brown Ale",
     "effects": [
         {
             "amplifier": 1,
