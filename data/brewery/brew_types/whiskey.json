@@ -1,6 +1,6 @@
 {
-    "customLore": "A classic spirit distilled from fermented grain mash, known for its rich and complex flavor.",
-    "customName": "Whiskey",
+    "customLore": "rpn.brew.whiskey.lore",
+    "customName": "rpn.brew.whiskey.name",
     "effects": [
         {
             "amplifier": 2,

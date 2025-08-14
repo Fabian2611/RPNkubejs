@@ -1,6 +1,6 @@
 {
-    "customLore": "A smooth and malty ale with a hint of honey sweetness.",
-    "customName": "Honey Brown Ale",
+    "customLore": "rpn.brew.honey_brown_ale.lore",
+    "customName": "rpn.brew.honey_brown_ale.name",
     "effects": [
         {
             "amplifier": 1,

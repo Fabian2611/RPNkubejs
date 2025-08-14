@@ -1,6 +1,6 @@
 {
-    "customLore": "It's water. What did you expect?",
-    "customName": "Water",
+    "customLore": "rpn.brew.water.lore",
+    "customName": "rpn.brew.water.name",
     "effects": [],
     "maxAlcoholLevel": 1,
     "maxPurity": 1,

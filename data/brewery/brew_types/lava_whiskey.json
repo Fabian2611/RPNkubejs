@@ -1,6 +1,6 @@
 {
-    "customLore": "A fiery and bold whiskey brewed with the essence of lava, offering a unique and intense flavor.",
-    "customName": "Lava Whiskey",
+    "customLore": "rpn.brew.lava_whiskey.lore",
+    "customName": "rpn.brew.lava_whiskey.name",
     "effects": [
         {
             "amplifier": 0,

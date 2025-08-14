@@ -1,6 +1,6 @@
 {
-    "customLore": "A creamy and savory soup made with roasted pumpkin, perfect for autumn.",
-    "customName": "Pumpkin Soup",
+    "customLore": "rpn.brew.pumpkin_soup.lore",
+    "customName": "rpn.brew.pumpkin_soup.name",
     "effects": [
         {
             "amplifier": 1,

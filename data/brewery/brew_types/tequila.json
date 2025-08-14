@@ -1,6 +1,6 @@
 {
-    "customLore": "A traditional Mexican spirit made from the blue agave plant, known for its smooth and complex flavor.",
-    "customName": "Tequila",
+    "customLore": "rpn.brew.tequila.lore",
+    "customName": "rpn.brew.tequila.name",
     "effects": [
         {
             "amplifier": 1,

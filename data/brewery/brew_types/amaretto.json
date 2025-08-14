@@ -1,6 +1,6 @@
 {
-    "customLore": "A sweet Italian liqueur with a distinct almond flavor.",
-    "customName": "Amaretto",
+    "customLore": "rpn.brew.amaretto.lore",
+    "customName": "rpn.brew.amaretto.name",
     "effects": [
         {
             "amplifier": 1,

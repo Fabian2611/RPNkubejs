@@ -1,6 +1,6 @@
 {
-    "customLore": "A hearty broth made from simmered bones, rich in nutrients and flavor.",
-    "customName": "Bone Broth",
+    "customLore": "rpn.brew.bone_broth.lore",
+    "customName": "rpn.brew.bone_broth.name",
     "effects": [
         {
             "amplifier": 0,
