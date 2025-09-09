@@ -27,4 +27,6 @@ StartupEvents.registry("item", event => {
     event.create("fish_and_chips").texture("kubejs:item/fish_and_chips").food(food => {
         food.hunger(8).saturation(1.2).effect("farmersdelight:nourishment", 1800, 0, 1.0)
     })
+
+    event.create("ring").texture("kubejs:item/ring").rarity("epic").fireResistant(true).unstackable()
 })
